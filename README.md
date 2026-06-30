@@ -213,16 +213,23 @@ XGBoost achieved the highest macro ROC-AUC under both original and balanced trai
 # Repository Structure
 
 ```
-
-.
+│
 ├── data/
+│   ├── sample_data.csv
+│   └── final_data.csv
+│
 ├── gee/
+│   ├── 01_sample_station_features
+│   └── 02_export_high_low_hab_geotiff
+│
 ├── notebooks/
-├── figures/
-├── results/
-├── requirements.txt
+│   ├── 01_sentinel2_feature_extraction.ipynb
+│   ├── 02_in_situ_data_preparation.ipynb
+│   ├── 03_dataset_preparation.ipynb
+│   ├── 04_machine_learning_models.ipynb
+│   └── 05_results_visualization.ipynb
+│
 └── README.md
-
 ```
 
 ---
