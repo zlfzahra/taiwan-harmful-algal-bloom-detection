@@ -239,6 +239,9 @@ XGBoost achieved the highest macro ROC-AUC under both original and balanced trai
 │   ├── XGBoost.pkl
 │   └── XGBoost_SMOTE.pkl
 │
+├── models/
+│   └── zahra_thesis.pdf
+│
 └── README.md
 ```
 
