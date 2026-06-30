@@ -229,6 +229,16 @@ XGBoost achieved the highest macro ROC-AUC under both original and balanced trai
 │   ├── 04_machine_learning_models.ipynb
 │   └── 05_results_visualization.ipynb
 │
+├── models/
+│   ├── kNN.pkl
+│   ├── kNN_SMOTE.pkl
+│   ├── Random_Forest.pkl
+│   ├── Random_Forest_SMOTE.pkl
+│   ├── SVM.pkl
+│   ├── SVM_SMOTE.pkl
+│   ├── XGBoost.pkl
+│   └── XGBoost_SMOTE.pkl
+│
 └── README.md
 ```
 
